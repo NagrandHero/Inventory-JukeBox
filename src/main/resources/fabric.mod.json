@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "inventory-jukebox",
+  "version": "${version}",
+
+  "name": "Inventory JukeBox",
+  "description": "It's a working jukebox in your Inventory that can also store music discs",
+  "authors": [
+    "NagrandHero"
+  ],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/inventory-jukebox/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.nagrandhero.inventoryjukebox.client.InventoryJukeboxClient"
+    ],
+    "main": [
+      "com.nagrandhero.inventoryjukebox.InventoryJukebox"
+    ]
+  },
+
+          "mixins": [
+        "inventory-jukebox.mixins.json"
+      ],
+    
+  "depends": {
+    "fabricloader": ">=0.14.8",
+              "fabric": "*",
+          "minecraft": "1.19"
+  }
+}
