@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class InventoryJukeboxClient {
+@net.fabricmc.api.Environment(net.fabricmc.api.EnvType.CLIENT)
+public class InventoryJukeboxClient {
 }
