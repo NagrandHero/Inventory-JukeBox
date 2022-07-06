@@ -23,7 +23,7 @@ public class Headphones extends TrinketItem {
     }
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable(getClass().getSimpleName()).formatted(Formatting.RED));
+        tooltip.add(Text.translatable(getClass().getSimpleName()).formatted(Formatting.AQUA));
         super.appendTooltip(stack, world, tooltip, context);
     }
 }
