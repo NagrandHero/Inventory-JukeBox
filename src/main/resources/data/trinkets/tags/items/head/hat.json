@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "amount": 1,
+  "values": [
+    "inventory-jukebox:speaker",
+    "inventory-jukebox:headphones"
+  ]
+}

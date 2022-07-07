@@ -7,7 +7,10 @@
   "authors": [
     "NagrandHero"
   ],
-  "contact": {},
+  "contact": {
+    "sources": "https://github.com/NagrandHero/Inventory-JukeBox",
+    "issues": "https://github.com/NagrandHero/Inventory-JukeBox/issues"
+  },
   "license": "MIT",
   "icon": "assets/inventory-jukebox/icon.png",
   "environment": "*",

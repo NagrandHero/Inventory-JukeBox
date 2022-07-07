@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CJC",
+    "CCC"
+  ],
+  "key": {
+    "C":{
+      "item": "inventory-jukebox:crafting_speaker"
+    },
+    "J":{
+      "item": "minecraft:jukebox"
+    }
+  },
+  "result": {
+    "item": "inventory-jukebox:speaker",
+    "count": 1
+  }
+}

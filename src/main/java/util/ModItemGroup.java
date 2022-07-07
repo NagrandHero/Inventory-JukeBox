@@ -9,6 +9,6 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
     public static final ItemGroup SUPPLEMENTARY_ACCESSORIES = FabricItemGroupBuilder.build(
-            new Identifier(InventoryJukebox.MOD_ID, "inventory_jukebox"),
-            () -> new ItemStack(ItemRegister.crafting_speaker));
+            new Identifier(InventoryJukebox.MOD_ID, "inventory-jukebox"),
+            () -> new ItemStack(ItemRegister.headphones));
 }

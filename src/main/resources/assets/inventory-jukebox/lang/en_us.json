@@ -1,0 +1,10 @@
+{
+  "itemGroup.inventory-jukebox.inventory-jukebox": "Inventory Jukebox",
+  "item.inventory-jukebox.headphones": "Headphones",
+  "item.inventory-jukebox.speaker": "Speaker",
+  "item.inventory-jukebox.crafting_speaker": "Crafting Speaker",
+
+  "CraftingSpeaker": "Use this to craft items into a speaker or headphones.",
+  "Headphones": "Use this to listen to music to client.",
+  "Speaker": "Use this to play music to server."
+}
